@@ -1,5 +1,5 @@
 # Azure Function for Email and PDF
-This is an example Azure function that will covert an HTML document to a PDF, attached and send it as an email using SendGrid.
+This is an example .net 8 isolated Azure function that implements SendGrid and DinkToPDF for Html to PDF Conversion 
 
 ### DinkToPdf
 .NET Core P/Invoke wrapper for wkhtmltopdf library that uses Webkit engine to convert HTML pages to PDF.
